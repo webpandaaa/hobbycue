@@ -1,0 +1,86 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.navleft{
+    width: 50%;
+    padding: 10px 20px 0px 70px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navleft img{
+    width: 293px;
+}
+
+.navleft .searchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navleft .searchdiv input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgba(58, 58, 58, 0.546);
+    outline: none;
+    font-size: 15px;
+    background-color:#F8F9FA;
+    padding-left: 20px;
+}
+
+.navleft .searchdiv i{
+    padding: 12px;
+    background-color:#8064A2;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+
+.navright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navright .firstpart{
+    display: flex;
+    gap: 30px   ;
+}
+
+.navright .firstpart  img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navright .secondpart{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.navright .secondpart i{
+    color: #8064A2;
+    cursor: pointer;
+
+}
+
+
+.navright .secondpart button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #8064A2;
+    color: #8064A2;
+    background: #fff;
+    cursor: pointer;
+}
