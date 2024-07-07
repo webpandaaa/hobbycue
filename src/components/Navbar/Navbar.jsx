@@ -22,6 +22,7 @@ const Navbar = () => {
           <i class="ri-shopping-cart-2-fill"></i>
           <button>Sign in</button>
         </div>
+        <img className='menu  ' src="./nav.png" alt="" />
       </div>
     </div>
   )

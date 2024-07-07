@@ -1,0 +1,92 @@
+.seven{
+    width: 100%;
+    height: 380px;
+   
+    font-family: poppins;
+   
+}
+
+.seven .first h1{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5%;
+    margin-bottom: 15px;
+}
+
+.seven .cnt{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 60px 100px;
+}
+
+.seven .cnt .left{
+    width: 70%;
+    height: 240px;
+    position: relative;
+    display: flex;
+    gap: 220px;
+    padding: 20px 0px;
+}
+
+.seven .cnt .first li{
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.seven .cnt .right{
+    width: 30%;
+    height: 240px;
+}
+
+.seven .cnt .right h1{
+    font-size: 14px;
+    letter-spacing: .5%;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.seven .cnt .right img{
+    width: 360px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+
+.seven .searchdiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.seven .searchdiv input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgba(58, 58, 58, 0.546);
+    outline: none;
+    font-size: 15px;
+    background-color:#F8F9FA;
+    padding-left: 20px;
+}
+
+.seven .searchdiv p{
+    padding: 8px;
+    background-color:#8064A2;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 15px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

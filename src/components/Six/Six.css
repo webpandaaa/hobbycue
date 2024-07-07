@@ -1,0 +1,38 @@
+.six{
+    width: 100%;
+    height: 662px;
+    background: #F7FDFF;
+    position: relative;
+    font-family: poppins;
+    padding: 100px;
+}
+
+
+.six .textdiv h1{
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.six .textdiv h1 span:nth-child(1){
+    color: #8064A2;
+}
+
+.six .textdiv h1 span:nth-child(2){
+    color: #0096C8;
+}
+
+.six .textdiv button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #8064A2;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.six img{
+    width: 1300px;
+    object-fit: contain;
+}
